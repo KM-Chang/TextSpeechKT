@@ -1,0 +1,93 @@
+---------------------------------------------------------
+GNU General Public License (GPL)
+
+Copyright (C) 2023 kaimin, chang(張凱閔)
+
+This agreement is provided under the following conditions:
+
+1. Definitions
+   a. "Software" refers to the program for text-to-speech and speech generation (hereinafter referred to as "the Software").
+   b. "Derivative Works" refers to modifications, adaptations, or works based on the Software.
+
+2. Grant of License
+   a. You are granted the rights to use, copy, modify, and distribute the Software.
+   b. If you modify the Software, you are required to retain the original GPLv3 license terms in the modified software.
+   c. If you distribute the Software, whether in source code or compiled form, you must provide the original source code simultaneously.
+
+3. Patent License
+   a. You are granted a license to use any relevant patents associated with the Software, allowing your use without restrictions.
+   b. If you assert patent claims against others, your license may be revoked.
+
+4. Limitation of Liability
+   a. The Software is provided as-is, without any express or implied warranties.
+   b. The author shall not be held liable for any direct or indirect damages resulting from the use of the Software.
+   c. The specific application of the Software relies on Microsoft Speech or other core dependencies, which are unrelated to the Software itself.
+
+5.Additional Terms
+   a. If you distribute derivative works of the Software, you must include the original copyright notice, GPLv3 license terms, and limitation of liability in the relevant documentation.
+
+For more detailed information, please refer to the complete GPLv3 license terms.
+
+Copyright (C) 2023 kaimin, chang(張凱閔)
+-----------------------------------------------------------------
+GNU 一般公衆利用許諾（GPL）
+
+著作権（C）2023 kaimin, chang(張凱閔)
+
+この合意書は、以下の条件のもとで提供されます：
+
+1.　定義
+    a. 「ソフトウェア」とは、文字から音声への変換と音声ファイル生成のプログラムを指します（以下、「本ソフトウェア」と言います）。
+    b. 「派生著作物」とは、本ソフトウェアを基にした変更、適応、または派生物を指します。
+
+2. 権利の与える
+    a. 本ソフトウェアの使用、複製、変更、配布の権利が付与されます。
+    b. 本ソフトウェアを変更する場合、元のGPLv3のライセンス条項を変更後のソフトウェアに保持する必要があります。
+    c. 本ソフトウェアを配布する場合、ソースコード形式またはコンパイル済み形式に関わらず、元のソースコードを同時に提供する必要があります。
+
+3.　特許
+　　a. 本ソフトウェアに関連する特許の使用を制限なく許可します。
+　　b. 他者に特許侵害の主張を行った場合、特許が取り消される可能性があります
+
+4.　責任の制限
+　　a. 本ソフトウェアは現状のまま提供され、明示的または黙示的な保証はありません。
+　　b. 著作者は、本ソフトウェアの使用によって生じる直接または間接の損害について一切の責任を負いません。
+　　c. 本ソフトウェアの具体的な適用は、Microsoft Speechやその他のコア依存関係に依存しており、本ソフトウェアとは直接関係ありません。
+
+5.　その他
+　　a. 本ソフトウェアの派生著作物を配布する場合、関連する文書に元の著作権表示、GPLv3の利用条件、および責任制限を含める必要があります。
+
+詳細な情報については、完全なGPLv3の利用条件を参照してください。
+
+著作権（C）2023 kaimin, chang(張凱閔)
+-----------------------------------------------------------------
+GNU通用公共授權條款（GPL）
+
+版權所有（C） 2023 kaimin, chang(張凱閔)
+
+這份協議在下列條件下提供：
+ 
+1. 定義
+   a. "軟體" 指代本文字轉語音及生成語音的程式（以下稱為「本軟體」）。
+   b. "衍生著作" 指代基於本軟體或包含本軟體的修改、衍生或派生著作。
+
+2. 授權範圍
+   a. 你被授予使用、複製、修改和分發本軟體的權利。
+   b. 你被要求在修改後的軟體中保留原始的GPLv3授權條款。
+   c. 如果你分發本軟體，無論是以源碼形式還是編譯後的形式，你必須同時提供原始碼。
+
+3. 專利授權
+   a. 你被授予對使用本軟體的相關專利的授權，以使你的使用不被限制。
+   b. 如果你對其他人的專利提出控訴，你的授權也會被撤銷。
+
+4. 責任限制
+   a. 本軟體是按現狀提供，沒有任何明示或暗示的保證。
+   b. 作者不對因使用本軟體而導致的任何直接或間接損害負責。
+   c. 本軟體具體應用依賴Microsoft Speach或其他相依核心，該部分與本軟體無直接關係。
+
+5. 其他條款
+   a. 如果你分發本軟體的衍生著作，你必須在相關文件中保留原始著作權聲明、GPLv3授權條款和責任限制。
+
+有關更多詳細信息，請參閱完整的GPLv3授權條款。
+
+版權所有（C） 2023 kaimin, chang(張凱閔)
