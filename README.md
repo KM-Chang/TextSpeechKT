@@ -15,5 +15,6 @@
 1. .Net code(.NET 6)
 2. C#
 3. winForm
+4. 執行檔：\Demo\TextSpeechKT.exe
 
 ![](TextSpeechKT/Demo/UI.png)
