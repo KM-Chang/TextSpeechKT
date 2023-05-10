@@ -1,16 +1,10 @@
-﻿using Autofac;
-using Autofac.Core;
-using Microsoft.VisualBasic;
-using System;
-using System.Speech.Synthesis;
-using System.Windows.Forms.Design;
-using TextSpeechKT.Server;
+﻿using TextSpeechKT.Server;
 namespace TextSpeechKT
 {
     public partial class Form1 : Form
     {
         private readonly IConvertVoice _ConvertVoice;
-        private string[] MsgArr = { "沒有任何內容", "排入序列", "語音產生中", "執行完成", "已匯出檔案至" };
+        private string[] MsgArr = new string[6];
         public Form1(IConvertVoice Fr1ConvertVoice)
         {
             InitializeComponent();
@@ -67,15 +61,15 @@ namespace TextSpeechKT
                 groupBox1.Text = "文字入力";
                 groupBox2.Text = "オプション";
                 radioButton1.Text = "標準モード";
-                radioButton2.Text = "自然モード";
+                radioButton2.Text = "調整モード";
                 button1.Text = "変換する";
                 if (textBox1.Text == "" || (textBox1.Text.Length > 3 && textBox1.Text[..3] == "您好！"))
-                    textBox1.Text = "こんにちは！\r\nこれは文字を声に変換できるプログラミングですよ！\r\nこちらに內容を変わってみてください";
+                    textBox1.Text = "こんにちは！これは文字を声に変換できるプログラミングですよ！\r\nこちらに內容を変わってみてください";
 
                 MsgArr[0] = "內容は何もないです";
                 MsgArr[1] = "順番処理します";
                 MsgArr[2] = "音声合成します";
-                MsgArr[3] = "執行完了";
+                MsgArr[3] = "執行完了,言ってます～";
                 MsgArr[4] = "音声ファイルをOutFileというフォルダにエクスポートしました！";
             }
             else
@@ -89,17 +83,18 @@ namespace TextSpeechKT
                 groupBox1.Text = "文字輸入框";
                 groupBox2.Text = "選項";
                 radioButton1.Text = "標準模式";
-                radioButton2.Text = "自然模式";
+                radioButton2.Text = "調整模式";
                 button1.Text = "轉換";
                 if (textBox1.Text == "" || (textBox1.Text.Length > 6 && textBox1.Text[..6] == "こんにちは！"))
-                    textBox1.Text = "您好！\r\n這是一個文字轉換為語音合成的程式\r\n請嘗試在此變更文字內容";
+                    textBox1.Text = "您好！這是一個文字轉換為語音合成的程式\r\n請嘗試在此變更文字內容";
 
                 MsgArr[0] = "沒有任何內容";
                 MsgArr[1] = "排入序列";
                 MsgArr[2] = "語音產生中";
-                MsgArr[3] = "執行完成";
+                MsgArr[3] = "執行完成，正在朗讀～";
                 MsgArr[4] = "已匯出檔案至OutFile資料夾！";
             }
+            MsgArr[5] = LangStr;
             #endregion
         }
     }

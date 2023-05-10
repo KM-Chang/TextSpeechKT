@@ -147,7 +147,7 @@
             radioButton2.Size = new Size(73, 19);
             radioButton2.TabIndex = 10;
             radioButton2.TabStop = true;
-            radioButton2.Text = "自然模式";
+            radioButton2.Text = "調整模式";
             radioButton2.UseVisualStyleBackColor = true;
             // 
             // comboBox1
@@ -189,7 +189,7 @@
             label4.Name = "label4";
             label4.Size = new Size(40, 15);
             label4.TabIndex = 13;
-            label4.Text = "v1.0.0";
+            label4.Text = "v1.1.0";
             // 
             // Form1
             // 
